@@ -19,13 +19,13 @@ Para fazer o deploy da aplicação
 
 #### Retornar um Pokemon
 
-```http
+```bash
   GET https://pokeapi.co/api/v2/pokemon/${id}
 ```
 
 ou
 
-```http
+```bash
   GET https://pokeapi.co/api/v2/pokemon/${nome}
 ```
 
