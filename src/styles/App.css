@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 100;
+}
+
+html {
+  margin: 32px;
+  background: rgb(180, 243, 255);
+  /* background: rgb(211, 248, 255); */
+  /* background: rgb(3, 79, 94); */
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    margin: 16px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  html {
+    margin: 0;
+  }
+}

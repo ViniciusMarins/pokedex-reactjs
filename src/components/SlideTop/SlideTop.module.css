@@ -1,0 +1,14 @@
+.containerSlide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  z-index: 1;
+}
+
+.containerSlide svg:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
